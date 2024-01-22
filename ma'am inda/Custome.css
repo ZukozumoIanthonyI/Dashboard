@@ -1,0 +1,94 @@
+
+
+body {
+    background-image: url('https://wallpapers.com/images/high/dark-mountain-1200-x-664-wallpaper-3l2is6jcqix2pcb5.web');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-card {
+    background-color: rgba(10, 10, 10, 0.3); /* Adjust the alpha (fourth) value for transparency */
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(189, 185, 185); /* Set the text color within the card */
+    font-family: 'Arial', sans-serif; /* Set the font family for the card */
+}
+
+.form-outline {
+    position: relative;
+}
+
+.form-outline input {
+    padding-left: 40px; /* Adjust as needed */
+}
+
+.form-outline i {
+    position: absolute;
+    top: 50%;
+    left: 10px; /* Adjust as needed */
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+/* Additional styling for centering and color change */
+.center-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-group {
+    margin-bottom: 15px;
+    position: relative;
+  }
+
+  .form-control {
+    background-color: rgba(133, 131, 131, 0.3); /* Adjust the alpha value for transparency */
+    border-color: #e6e4e4;
+    color: rgb(32, 31, 31); /* Set the text color for the input field */
+    font-family: 'Arial', sans-serif; /* Set the font family for the input field */
+  }
+
+  .form-control input {
+    color: rgb(75, 72, 72); /* Set the text color for the input text */
+    padding-left: 40px; /* Adjust the space for the icon */
+  }
+
+
+  .btn-primary {
+    background-color: rgba(133, 131, 131, 0.3); /* Adjust the alpha value for transparency */
+    border-color: #212529;
+  }
+
+.icon-style {
+    color: #555; /* Default icon color */
+    opacity: 0.2; /* Default icon opacity */
+    transition: color 0.3s, opacity 0.0s;
+}
+
+.icon-style:hover {
+    color: #000; /* Hover icon color */
+    opacity: 0,2; /* Hover icon opacity */
+}
+
+.icon-border {
+    border-color: #e6e4e4; /* Default icon border color */
+    transition: border-color 0.3s;
+}
+
+.icon-border-opacity {
+    opacity: 0.4; /* Default icon border opacity */
+    transition: opacity 0.3s;
+}
+
+.icon-border:hover {
+    border-color: #e6e4e4; /* Hover icon border color */
+}
+
+.icon-border-opacity:hover {
+    opacity: 0.3; /* Hover icon border opacity */
+}
